@@ -1,6 +1,19 @@
 body{
-background-color: #ffffff;
-p{
+background-color: #0f0f0f;
 
+}   
+
+.container
+
+p{
+    color:#ffffff;
 }
 
+h2,h1{
+    color: #ffffff
+    text-aling: center
+}
+
+figure
+text-aling:center
+}
