@@ -3,17 +3,30 @@ background-color: #0f0f0f;
 
 }   
 
-.container
+.container{
+
+    width: 70%;
+    margin: auto;
+}
 
 p{
     color:#ffffff;
 }
 
 h2,h1{
-    color: #ffffff
-    text-aling: center
+    color: #ffffff;
+    text-aling: center;
 }
 
-figure
-text-aling:center
+ figure{ 
+text-aling:center;
 }
+
+.img_topo{
+    width:100%;
+}
+
+.img_corpo{
+    width:60% ;
+}
+
