@@ -12,15 +12,16 @@ background-image: url("im");
 p{
     color:#050505;
     font-size: 1em;
+    text-align: center;
 }
 
 h2,h1{
     color: #ffffff;
-    text-aling: center;
+    text-align: center;
 }
 
  figure{ 
-text-aling:center;
+text-align:center;
 }
 
 .img_topo{
