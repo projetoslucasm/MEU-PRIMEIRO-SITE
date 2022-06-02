@@ -25,20 +25,41 @@ text-align:center;
 }
 
 .img_topo{
-    width:100%;
+    width:70%;
 }
 
 .img_corpo{
-    width:100% ;
+    width:70% ;
 }
 
-{animation-duration
+animation-duration
 
-}
+
 
 p.four {
     border-style: dotted;
     border-width: thick;
   }
 
+
+    footer p{
+        text-align: center;
+       font-size: 1.2em;
+
+    }
+
+{
+    .direita
+     float :left;
+     width:40%; 
+    margin--right: 2%;
+    margin-top: 1%;
+}
+
+{section  
+margin-top: 2%;
+margin-bottom: 2%;
+}
+    
+    
 
