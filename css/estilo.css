@@ -9,15 +9,30 @@ background-image: url("im");
     margin: auto;
 }
 
+menu, footer{
+    background-color: #050505;
+    padding: 2%;
+
+}
+
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
+}
+
 p{
     color:#050505;
     font-size: 1em;
     text-align: center;
 }
 
-h2,h1{
-    color: #ffffff;
+h1,h2{
+    color: #050505;
     text-align: center;
+    font-style: oblique;
+
 }
 
  figure{ 
@@ -36,27 +51,50 @@ animation-duration
 
 
 
-p.four {
-    border-style: dotted;
-    border-width: thick;
-  }
 
 
-    footer p{
+
+    footer p {
         text-align: center;
-       font-size: 1.2em;
+       font-size: 1em;
 
     }
 
-{
-    .direita
+    botao{
+    margin:1%; 
+    width: 100px;
+    height: 30px;
+    padding: 2%;
+    background-color: rgba(255, 0, 0, 0.3);
+    margin: auto;
+    
+    }
+    .botao:hover{
+        background-color:#5bf701;
+      }
+      .botao a:link, .botao a:visited{
+        color:#6f00ff;
+        text-decoration: none;
+        font-weight: bolder;
+      }
+      .botao p{
+        text-align: center;
+      }
+      section{
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      
+
+    direita{
      float :left;
      width:40%; 
     margin--right: 2%;
     margin-top: 1%;
 }
 
-{section  
+
+section { 
 margin-top: 2%;
 margin-bottom: 2%;
 }
