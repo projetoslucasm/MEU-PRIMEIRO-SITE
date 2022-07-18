@@ -1,7 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
-background-image: url("im");
-
-}   
+    background-color: #fffffff6; 
+}
 
 .container{
 
@@ -10,9 +12,9 @@ background-image: url("im");
 }
 
 menu, footer{
-    background-color: #050505;
+   
+    background-color: rgba(248, 148, 17, 0.74);
     padding: 2%;
-
 }
 
 .itens_menu{
@@ -23,81 +25,98 @@ menu, footer{
 }
 
 p{
-    color:#050505;
-    font-size: 1em;
-    text-align: center;
+    text-align: justify;
 }
+
+p{
+color: #000000;
+font-size: 1.5em;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-right: 10px;
+margin-left: 80px;
+
+}
+h1{
+    font-size: 2em;
+}
+
 
 h1,h2{
-    color: #050505;
-    text-align: center;
-    font-style: oblique;
-
+color: rgb(255, 0, 0);
+text-align: center;
+text-decoration-line: overline;
+text-decoration-color: rgb(255, 60, 0);
+text-shadow: 2px 2px 5px rgba(248, 182, 0, 0.89);
 }
 
- figure{ 
-text-align:center;
+figure{
+
+text-align: center;
 }
 
-.img_topo{
-    width:70%;
+.container{
+width:70% ;
+margin: auto;
+border-radius: 5px;
+   }
+    .img_topo{
+        width: 100%;
+   }
+    .img_corpo{
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+  }
+  
+a:link, a:visited {
+background-color: #000000;
+color: rgba(16, 223, 223, 0.952);
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
 }
 
-.img_corpo{
-    width:70% ;
+a:hover, a:active {
+background-color: rgb(70, 38, 38);
 }
 
-animation-duration
-
-
-
-
-
-
-    footer p {
-        text-align: center;
-       font-size: 1em;
-
-    }
-
-    botao{
-    margin:1%; 
-    width: 100px;
-    height: 30px;
-    padding: 2%;
-    background-color: rgba(255, 0, 0, 0.3);
-    margin: auto;
-    
-    }
-    .botao:hover{
-        background-color:#5bf701;
-      }
-      .botao a:link, .botao a:visited{
-        color:#6f00ff;
-        text-decoration: none;
-        font-weight: bolder;
-      }
-      .botao p{
-        text-align: center;
-      }
-      section{
-        margin-top: 2%;
-        margin-bottom: 2%;
-      }
-      
-
-    direita{
-     float :left;
-     width:40%; 
-    margin--right: 2%;
-    margin-top: 1%;
+.botao{
+margin: 1%;
+width: 100px;
+height: 30px;
+padding: 2%;
+margin: auto;
 }
-
-
-section { 
+.botao:hover{
+background-color:#FFDEAD;
+}
+.botao a:link, .botao a:visited{
+color:#8B4513;
+text-decoration: none;
+font-weight: bolder;
+}
+.botao p{
+text-align: center;
+}
+section{
 margin-top: 2%;
 margin-bottom: 2%;
 }
-    
+.direita{
+float: right;
+margin-left: 2%;
+margin-top: 2%;
+margin-bottom: 2%;
+width: 40%;
+}
+.esquerda{
+float: left;
+margin-right: 2%;
+margin-top: 2%;
+margin-bottom: 2%;
+width: 40%;
+}
     
 
