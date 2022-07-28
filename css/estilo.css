@@ -1,5 +1,11 @@
+@font-face {
+  font-family:Oswald-VariableFont_wght;
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+
 html {
     scroll-behavior: smooth;
+    font-family:Oswald-VariableFont_wght ;
 }
 body{
     background-color: #555048bd; 
@@ -26,6 +32,7 @@ body{
 
 p{
     text-align: justify;
+    font-family: 'Press Start 2P', cursive;
 }
 
 p{
