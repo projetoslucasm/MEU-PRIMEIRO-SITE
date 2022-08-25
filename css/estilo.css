@@ -10,6 +10,12 @@ html {
 body{
     background-color: #555048bd; 
 }
+li {
+  display: inline;
+}
+ul {
+  background-color: #000000;
+}
 
 .container{
 
@@ -22,6 +28,9 @@ body{
     background-color: rgba(73, 66, 59, 0.87);
     padding: 2%;
 }
+menu, footer{
+  
+  padding: 2%; }
 
 .itens_menu{
     padding-top: 1%;
@@ -102,7 +111,7 @@ footer{
      width: 100px;
      height: 30px;
      padding: 2%;
-     background-color: rgba(9, 7, 6, 0.3);
+     background-color: rgba(240, 96, 24, 0.3);
      margin: auto;
    }
    
