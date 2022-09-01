@@ -87,6 +87,13 @@ margin: auto;
     margin-top: 2%;
     margin-bottom: 2%; 
   }
+
+  .img_logo{
+    width:10%;
+  }
+  .logo{
+    text-align:center ;
+  }
   
 a:link, a:visited {
 background-color: #000000;
@@ -179,5 +186,11 @@ audio{
 audio::-webkit-media-controls-panel {
   background-color: #ff99008a 
 }
+
+header{
+  position: fixed;
+  width: 100%;
+}
+
     
 
