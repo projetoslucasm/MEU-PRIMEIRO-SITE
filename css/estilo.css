@@ -10,12 +10,7 @@ html {
 body{
     background-color: #555048bd; 
 }
-li {
-  display: inline;
-}
-ul {
-  background-color: #000000;
-}
+
 
 .container{
 
@@ -32,6 +27,11 @@ menu, footer{
   
   padding: 2%; }
 
+
+  .itens_menu li{
+    font-size: 1.3em;
+    line-height: 1.5;
+  }
 .itens_menu{
     padding-top: 1%;
     line-height: 1.5;
@@ -78,6 +78,13 @@ footer p {
 width:70% ;
 margin: auto;
    }
+  .fixo{
+    position: fixed;
+    width: 100%;
+   
+    z-index: 1000;
+  }
+
 
     .img_topo{
         width: 100%;
@@ -190,7 +197,63 @@ audio::-webkit-media-controls-panel {
 header{
   position: fixed;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Altera configuração quanod a tela está menor que 600px */
+@media screen and (max-width:600px) {
+
+  .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }   
+    
+    .logo{
+      text-align: center;
+      
+  }
+
+  .img_logo{
+      width: 20%;
+  }
+
+
+  .banner{
+      margin-top: 40%;
+  }
+
+  .descer{
+      margin-top: 50%;
+  }
+
+
 }
 
-    
+ /* Altera configuração quando a tela for maior que 601 px*/
+ @media screen and (min-width:601px) {
 
+  header{
+      background-color: #c9c9c9a9;
+      flex-direction: row;
+      padding: 3%;
+  }    
+
+  .itens_menu{
+      position: absolute;
+      right: 2%;      
+      width: 70%;
+  }
+
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 1%;
+  }
+  .img_logo{
+      width: 30%;
+  }
+
+  .logo{
+      width: 30%;
+      text-align: left;
+  }
