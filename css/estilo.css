@@ -238,7 +238,7 @@ footer p{
         font-weight: bold;
       } 
       audio::webkit-media-controls-panel{
-        background-color: blanchedalmond;
+        background-color: blanchedalmond;;
       }
       
       .form{
@@ -352,8 +352,15 @@ footer p{
       top: 34%;
     }
   
+  }
+
+
+
+  }
   
   }
+
+
 
 
 
